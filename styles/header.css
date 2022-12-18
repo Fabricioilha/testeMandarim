@@ -1,0 +1,109 @@
+header{
+    height: 140px;
+    position: relative;
+    z-index: 0;
+}
+header>img:nth-child(1){
+    position: absolute;
+    width: 100%;
+    height: 140px;
+}
+.box_left_hash{
+    position: absolute;
+    height: 140px;
+    width: 80px;
+    overflow: hidden;
+}
+.box_left_hash>img{
+    position: absolute;
+    width: 157px;
+    height: 157px;
+    left: -78px;
+    top: 20px;
+}
+header>img:nth-child(2){
+    position: absolute;
+    right: 15px;
+    top: 2px;
+}
+.content{
+    position: relative;
+    inset: 0;
+    height: 115px;
+}
+
+.content img{
+    position: absolute;
+}
+
+#title{
+    top: 8px;
+    left: 2px;
+}
+#arrow{
+    top: -10px;
+    left: 45%;
+}
+#l_bols{
+    left: 192px;
+    top: 88px;
+}
+#woman{
+    left: 46%;
+    bottom: -64px;
+}
+#nrf_text{
+    right: 0;
+}
+#zigzag{
+    right: 0;
+    bottom: 25px;
+}
+
+@media screen and (max-width: 599px){
+    *{
+        transition: all ease .3s;
+    }
+    header{
+        height: 240px;
+    }
+    header>img:nth-child(1){
+        height: 240px;
+    }
+    #l_bols{
+        top: 188px;
+    }
+    #woman{
+        left: 2%;
+        bottom: -163px;
+    }
+    #nrf_text{
+        right: 0;
+        top: 80px;
+    }
+    #title{
+        top: 8px;
+        left: 2px;
+        transform: scale(1.3);
+    }
+    #zigzag{
+        right: -20px;
+        bottom: -50px;
+    }
+    #arrow{
+        top: -10px;
+        left: 80%;
+    }
+    header>img:nth-child(2){
+        position: absolute;
+        right: 15px;
+        top: 80px;
+    }
+}
+@media screen and (max-width: 410px){
+    #title{
+        top: 8px;
+        left: 2px;
+        transform: scale(1);
+    }
+}

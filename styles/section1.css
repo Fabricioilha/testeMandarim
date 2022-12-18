@@ -1,0 +1,51 @@
+#section1{
+    width: 100%;
+    background-color: #fff;
+}
+.section1_box{
+    position: relative;
+    height: 350px;
+}
+#NRF_Photo{
+    width: 100%;
+    min-height: 300px;
+    object-fit: cover;
+    object-position: center;
+}
+.section1_desc{
+    position: absolute;
+    bottom: 0;
+    background-color: rgb(255, 255, 255);
+    padding-top: 15px;
+}
+.section1_desc h3{
+    font-size: 23px;
+    letter-spacing: -1.5px;
+    line-height: 25px;
+    color: #231f20;
+    font-weight: bold;
+}
+.section1_desc p{
+    margin-top: 5px;
+    font-size: 13px;
+    letter-spacing: 0px;
+    line-height: 17px;
+    color: #74787a;
+    margin-bottom: 10px;
+}
+.section1_desc span{
+    font-size: 11px;
+    letter-spacing: 0px;
+    color: #b2b2b2;
+    font-style: italic;
+}
+.section1_font{
+    display: flex;
+    flex-direction: column;
+}
+
+@media screen and ( max-width: 599px){
+    .section1_box{
+        height: 400px;
+    }
+}
